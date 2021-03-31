@@ -573,6 +573,9 @@ configmap:
           type: bucket
           rate: 10
           capacity: 100
+    webhook:
+      certDir: /etc/webhook/certs
+      serviceName: flyte-pod-webhook
 
   # Plugins configuration
   enabled_plugins:
